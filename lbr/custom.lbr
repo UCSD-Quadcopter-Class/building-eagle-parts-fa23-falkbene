@@ -135,7 +135,7 @@
 <wire x1="2.4" y1="-2.4" x2="-2.4" y2="-2.4" width="0.05" layer="39"/>
 <wire x1="-2.4" y1="-2.4" x2="-2.4" y2="2.4" width="0.05" layer="39"/>
 </package>
-<package name="LSM6DSOXTR6-AXISIMU">
+<package name="LSM6DS0XTR6-AXISIMU">
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
@@ -222,7 +222,7 @@
 <wire x1="-1.34945625" y1="0" x2="-1.34945625" y2="-0.8754125" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="1.778" layer="95" font="vector" align="center">&gt;Name</text>
 </symbol>
-<symbol name="LSM6DSOXTR6-AXISIMU">
+<symbol name="LSM6DS0XTR6-AXISIMU">
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
@@ -305,12 +305,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM6DSOXTR6-AXISIMU" prefix="U">
+<deviceset name="LSM6DS0-IMU" prefix="U">
 <gates>
-<gate name="G$1" symbol="LSM6DSOXTR6-AXISIMU" x="0" y="0"/>
+<gate name="G$1" symbol="LSM6DS0XTR6-AXISIMU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LSM6DSOXTR6-AXISIMU" package="LSM6DSOXTR6-AXISIMU">
+<device name="-LSM6DS0XTR6-AXISIMU" package="LSM6DS0XTR6-AXISIMU">
 <connects>
 <connect gate="G$1" pin="CS" pad="CS"/>
 <connect gate="G$1" pin="GND" pad="GND1 GND2"/>
